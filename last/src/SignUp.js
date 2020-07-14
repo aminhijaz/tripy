@@ -12,7 +12,6 @@ import Checkbox from "@material-ui/core/Checkbox";
 import Link from "@material-ui/core/Link";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
-import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 function Copyright() {
@@ -70,7 +69,7 @@ const useStyles = makeStyles((theme) => ({
     right: "-20%",
   },
 }));
-export default function SignUp() {
+ function SignUp() {
   const classes = useStyles();
   return (
     <section className="section">
@@ -161,3 +160,5 @@ export default function SignUp() {
     </section>
   );
 }
+
+export default SignUp
